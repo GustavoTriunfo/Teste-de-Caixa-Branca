@@ -80,4 +80,8 @@ nome = rs.getString("nome");}
 ## Grafo de Fluxo identificado:
 <a href="https://ibb.co/phVbGMj"><img src="https://i.ibb.co/9ZKcz1H/Fluxo-de-Grafo.png" alt="Fluxo-de-Grafo" border="0"></a>
 
+## Cálculo de complexidade ciclomática:
+
+## Sequências:
+
 ## Última atualização: 05/10/2023
