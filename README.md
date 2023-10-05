@@ -75,5 +75,6 @@ if(rs.next()) {
 result = true;
 nome = rs.getString("nome");}
 ```
+# Exercício individual - Teste de Caixa Branca (ETAPA 2)
 
-## Última atualização: 26/09/2023
+## Última atualização: 04/10/2023
