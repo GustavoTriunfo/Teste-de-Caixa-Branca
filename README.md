@@ -77,4 +77,7 @@ nome = rs.getString("nome");}
 ```
 # Exercício individual - Teste de Caixa Branca (ETAPA 2)
 
-## Última atualização: 04/10/2023
+## Grafo de Fluxo identificado:
+<a href="https://ibb.co/phVbGMj"><img src="https://i.ibb.co/9ZKcz1H/Fluxo-de-Grafo.png" alt="Fluxo-de-Grafo" border="0"></a>
+
+## Última atualização: 05/10/2023
