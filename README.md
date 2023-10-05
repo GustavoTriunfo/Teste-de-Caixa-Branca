@@ -95,24 +95,18 @@ Portanto, a complexidade ciclomática do código é 11.
 ## Sequências:
 
 - Sequência sem exceção:
-1, 6, 7, 2, 3, 8, 9, 10, 11, 12, 13, 16, 17
+1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17
 
-- Exceção lançada no nó 3 (Class.forName):
-1, 6, 7, 2, 4, 16, 17
-
-- Exceção lançada no nó 4 (catch após Class.forName):
-1, 6, 7, 2, 3, 4, 16, 17
+- Exceção lançada no nó 2 (Class.forName):
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17
 
 - Exceção lançada no nó 9 (try após sql):
-1, 6, 7, 2, 3, 8, 9, 15, 16, 17
+1, 2, 3, 6, 7, 8, 9, 10, 15, 16, 17
 
 - Exceção lançada no nó 11 (if após rs.next()):
-1, 6, 7, 2, 3, 8, 9, 10, 11, 15, 16, 17
+1, 2, 3, 6, 7, 8, 9, 10, 11, 15, 16, 17
 
 - Exceção lançada no nó 13 (if dentro do bloco if):
-1, 6, 7, 2, 3, 8, 9, 10, 11, 12, 13, 15, 16, 17
-
-- Exceção lançada no nó 15 (catch dentro do bloco try):
-1, 6, 7, 2, 3, 8, 9, 10, 11, 15, 16, 17
+1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17
 
 ## Última atualização: 05/10/2023
