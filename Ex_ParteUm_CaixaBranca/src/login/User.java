@@ -7,30 +7,30 @@ import java.sql.Statement;
 
 public class User {
 public Connection conectarBD() {
-	Connection conn = null;
-	try {
+	/*1*/Connection conn = null;
+	/*2*/try {
 		Class.forName("com.mysql.Driver.Manager").newInstance();
 		String url = "jdbc:mysql://127.0.0.1/test?user=lopes&password=123";
 		conn = DriverManager.getConnection(url);
-	}catch (Exception e) {}
+	}/*3*/catch (Exception e) /*4*/{}/*5*/
 	return conn;}
-	public String nome = "";
+/*6*/public String nome = "";
 	public boolean result = false;
 	public boolean verificarUsuario(String login, String senha) {
-		String sql = "";
+		/*7*/String sql = "";
 		Connection conn = conectarBD();
 		//INSTRUÇÃO SQL
-		sql += "select nome from usuarios ";
+		/*8*/sql += "select nome from usuarios ";
 		sql += "where login = " + "'" + login + "'";
 		sql += " and senha = " + "'" + senha + "';";
-		try {
-			Statement st = conn.createStatement();
+		/*9*/try {
+			/*10*/Statement st = conn.createStatement();
 			ResultSet rs = st.executeQuery(sql);
-			if(rs.next()) {
-				result = true;
-				nome = rs.getString("nome");}
-		}catch (Exception e) {}
-		return result;}
+			/*11*/if(rs.next()) {
+				/*12*/result = true;
+				nome = rs.getString("nome");}/*13*/
+		}/*14*/catch (Exception e) /*15*/{}/*16*/
+		/*17*/	return result;}
 			}//fim da classe
 		
 
