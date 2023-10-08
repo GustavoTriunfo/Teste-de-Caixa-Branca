@@ -109,4 +109,8 @@ Portanto, a complexidade ciclomática do código é 11.
 - Exceção lançada no nó 13 (if dentro do bloco if):
 1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17
 
-## Última atualização: 05/10/2023
+# Exercício individual - Teste de Caixa Branca (ETAPA 3)
+
+## Documentação:
+
+## Última atualização: 08/10/2023
