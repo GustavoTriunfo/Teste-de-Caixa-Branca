@@ -114,7 +114,7 @@ Portanto, a complexidade ciclomática do código é 11.
 ## Documentação:
 
 Na branch ETAPA_3 é desenvolvida a documentação do código da classe User. Acesse a branch especificada para visualizar os detalhes do código. 
-Utilizei a marcação /****/ para efetuar o comentário de documentação, e posteriormente , na IDE Eclipse, acessei o menu "Project" e gerei o Javadoc.
+Utilizei a marcação /****/ para efetuar os comentários de documentação, e posteriormente , na IDE Eclipse, acessei o menu "Project" e gerei o Javadoc.
 A pasta javadoc está na branch ETAPA_3, antes da pasta src. Denominada como "doc".
 <br><br>
 Nessa atividade foi gerada a documentação que antes estava pendente nesse projeto. Todas as áreas de método, variáveis criadas e momentos considerados cruciais foram devidamente documentados. 
