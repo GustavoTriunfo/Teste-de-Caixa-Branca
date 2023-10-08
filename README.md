@@ -128,7 +128,9 @@ A classe que possui os comentários de documentação: Documentacao.java. Segue 
 		 * Esse ponto também pode caracterizar um erro no código.**/
 	}
 ```
-<br><br>
+<br>
+Para acessar o Javadoc entre na pasta doc e acesse o documento "index.html".
+<br>
 Estou aberto a feedbacks. Caso hajam sugestões entre em contato.
 
 ## Última atualização: 08/10/2023
