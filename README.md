@@ -120,6 +120,15 @@ A pasta javadoc está na branch ETAPA_3, antes da pasta src. Denominada como "do
 Nessa atividade foi gerada a documentação que antes estava pendente nesse projeto. Todas as áreas de método, variáveis criadas e momentos considerados cruciais foram devidamente documentados. 
 Vale acrescentar que mesmo áreas de Exception do bloco catch onde deveria ter um tratamento foi explicado o tipo de exceção que deveria ser tratada e que aquilo representa uma prática não recomendada.
 <br><br>
+A classe que possui os comentários de documentação: Documentacao.java. Segue um exemplo de como essa documentação foi escrita:
+```java
+ catch (Exception e) 
+	{
+		/**Nesse catch a @exception ClassNotFoundException é capturada mas não é tratada de forma alguma. 
+		 * Esse ponto também pode caracterizar um erro no código.**/
+	}
+```
+<br><br>
 Estou aberto a feedbacks. Caso hajam sugestões entre em contato.
 
 ## Última atualização: 08/10/2023
